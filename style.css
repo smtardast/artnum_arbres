@@ -1,0 +1,79 @@
+@font-face{
+    font-family: Futura Book;
+    src: url(Futura\ Book\ font.ttf);
+}
+@font-face{
+    font-family: Futura Extra Black;
+    src: url(Futura\ Extra\ Black\ font.ttf);
+}
+@font-face{
+    font-family: Futura Heavy;
+    src: url(Futura\ Heavy\ font.ttf);
+}
+@font-face{
+    font-family: Futura Light;
+    src: url(Futura\ Light\ font.ttf);
+}
+
+
+@font-face{
+    font-family: Intrepid;
+    src: url(intreb.ttf)
+}
+
+h1{
+    font-family: 'Futura Extra Black';
+    color: rgb(0, 0, 0);
+}
+
+h2{
+    font-family: 'Futura Heavy';
+}
+
+p{
+    font-family: 'Futura Book';
+}
+
+ul{
+    color: darkgreen;
+    list-style: none;
+    
+}
+
+li {
+    font-family: 'Futura Book';
+    text-underline-offset: 3px;
+
+}
+
+a{
+color: darkgreen;
+}
+
+nav{
+    nav-right: auto;
+}
+
+img {
+    width: 100%;
+    max-width: 480px;
+}
+.tree{
+list-style-image: url(/ressources/tree.gif);
+list-style: 3px;
+}
+
+.navy{
+    display: inline;
+    padding: 10px;
+}
+    
+.navvy {
+    height: 100px;
+    width: auto;
+}
+
+.biggie{
+    font-size: 80px;
+    animation: alternate-reverse 0.4;
+}
