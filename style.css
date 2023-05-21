@@ -73,7 +73,17 @@ list-style: 3px;
     width: auto;
 }
 
+@keyframes biggie{
+    0%   {color: rgb(217, 89, 89); text-shadow:2px 2px rgb(89, 239, 89);}
+    25%  {color: rgb(245, 205, 29); text-shadow: 8px 8px green;}
+    50%  {color: rgb(214, 109, 33); text-shadow: 16px  16px yellowgreen;}
+    100% {color: rgb(56, 1, 10); text-shadow: 25px  25px darkgreen;}
+}
+
 .biggie{
     font-size: 80px;
-    animation: alternate-reverse 0.4;
+    animation-name: biggie;
+    animation-duration: 10s;
+    animation-fill-mode: both;
+   
 }
